@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="navbar-container">
+        <div class="navbar" id="navbar">
+            <div class="navbar-content">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Logout</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Copyright</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Donate</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <!-- add contents here  -->
+    </div>
+    
+</body>
+</html>
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Ubuntu, tahoma;
+}
+
+.navbar-container {
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background-color: #333;
+	z-index: 1000;
+	display: flex;
+	justify-content: center;
+    margin-top: 20px;
+}
+
+.navbar {
+	white-space: nowrap;
+	overflow-x: auto;
+	width: 70%;
+}
+
+.navbar-content {
+	display: inline-flex;
+	justify-content: center;
+	padding: 14px 0;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.navbar-content ul li {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navbar-content ul li:hover {
+	background-color: #e57777;
+	border-radius: 10px;
+	color: #f021f3;
+}
+ .navbar-content ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-weight: 400;
+ }
+.content {
+	padding: 16px;
+	height: 2000px; /* Just to show scrolling */
+	background-color: #f4f4f4;
+}
+
+/* Custom Scrollbar */
+.navbar::-webkit-scrollbar {
+	height: 8px;
+}
+
+.navbar::-webkit-scrollbar-thumb {
+	background-color: #24eaa8;
+	border-radius: 10px;
+}
+
+.navbar::-webkit-scrollbar-track {
+	background-color: #f1f1f1;
+	border-radius: 10px;
+}
+
+// java script
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Ubuntu, Tahoma;
+}
+
+.navbar-container {
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background-color: #333;
+	z-index: 1000;
+	display: flex;
+	justify-content: center;
+    margin-top: 20px;
+}
+
+.navbar {
+	white-space: nowrap;
+	overflow-x: auto;
+	width: 70%;
+}
+
+.navbar-content {
+	display: inline-flex;
+	justify-content: center;
+	padding: 14px 0;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.navbar-content ul li {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navbar-content ul li:hover {
+	background-color: #e57777;
+	border-radius: 10px;
+	color: #f021f3;
+}
+ .navbar-content ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-weight: 400;
+ }
+.content {
+	padding: 16px;
+	height: 2000px; /* Just to show scrolling */
+	background-color: #f4f4f4;
+}
+
+/* Custom Scrollbar */
+.navbar::-webkit-scrollbar {
+	height: 8px;
+}
+
+.navbar::-webkit-scrollbar-thumb {
+	background-color: #24eaa8;
+	border-radius: 10px;
+}
+
+.navbar::-webkit-scrollbar-track {
+	background-color: #f1f1f1;
+	border-radius: 10px;
+}
+
+  
